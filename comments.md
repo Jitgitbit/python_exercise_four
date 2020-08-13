@@ -18,3 +18,8 @@ git remote add origin git@github.com:Jitgitbit/python_exercise_four.git
 git push -u origin master
 gst
 DONE
+
+python3 manage.py startapp todo
+
+python3 manage.py runserver
+python3 manage.py migrate
