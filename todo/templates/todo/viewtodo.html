@@ -39,5 +39,8 @@
             <button id="complete" type="submit">Complete</button>
         </form>
     {% endif %}
-    
+    <form style='display: none;' method="POST" action="{% url 'deletetodo' todo.id %}">
+      {% csrf_token %}
+      <button id="delete" type="submit">Delete</button>
+    </form>
 {% endblock %}
