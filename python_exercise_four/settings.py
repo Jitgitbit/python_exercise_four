@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '(7=#1lxub%*)(9s-^kq*$7wpt(!zgo^d(#gvgtu0@ch4dd*kjj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.todowoo.info']
 
 
 # Application definition
