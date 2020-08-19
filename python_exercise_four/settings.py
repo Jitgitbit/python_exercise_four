@@ -25,7 +25,7 @@ SECRET_KEY = '(7=#1lxub%*)(9s-^kq*$7wpt(!zgo^d(#gvgtu0@ch4dd*kjj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.Todowoo.info', 'www.todowoo.info']
 
 
 # Application definition
@@ -119,5 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 LOGIN_URL = '/login'
