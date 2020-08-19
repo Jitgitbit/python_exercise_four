@@ -25,11 +25,7 @@ SECRET_KEY = '(7=#1lxub%*)(9s-^kq*$7wpt(!zgo^d(#gvgtu0@ch4dd*kjj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
 ALLOWED_HOSTS = ['www.Todowoo.info', 'www.todowoo.info']
-=======
-ALLOWED_HOSTS = ['www.Todowoo.info']
->>>>>>> a4b64004e3ecd2c8d09d5fd2ccc7bc5b6e2aca11
 
 
 # Application definition
